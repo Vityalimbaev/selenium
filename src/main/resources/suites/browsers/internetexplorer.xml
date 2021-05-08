@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Internet Explorer WINDOWS 10" verbose="1">
+    <parameter name="browser" value="Internet Explorer"/>
+    <parameter name="platform" value="Windows 10"/>
+
+    <test name="version 11">
+        <parameter name="version" value="11"/>
+        <packages>
+            <package name="tests.portal"/>
+<!--            <package name="tests.laboratory"/>-->
+            <package name="tests.promo"/>
+        </packages>
+    </test>
+</suite>

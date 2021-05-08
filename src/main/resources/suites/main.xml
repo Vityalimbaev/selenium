@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SELENIUM UI" verbose="1">
+    <listeners>
+        <listener class-name="TestNGCustomReportListner" />
+    </listeners>
+
+<!--    <suite-files>-->
+<!--        <suite-file path="browsers/mobile.xml"/>-->
+<!--        <suite-file path="browsers/chrome.xml"/>-->
+<!--        <suite-file path="browsers/firefox.xml"/>-->
+<!--        <suite-file path="browsers/internetexplorer.xml"/>-->
+<!--        <suite-file path="browsers/microsoftedge.xml"/>-->
+<!--        <suite-file path="browsers/safari.xml"/>-->
+<!--    </suite-files>-->
+
+    <suite-files>
+        <suite-file path="tests/portal.xml"/>
+        <suite-file path="tests/promo.xml"/>
+        <suite-file path="tests/mobile.xml"/>
+        <suite-file path="tests/gmail.xml"/>
+        <suite-file path="tests/admin.xml"/>
+        <suite-file path="tests/laboratory.xml"/>
+    </suite-files>
+</suite>

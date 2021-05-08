@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Админка" verbose="1">
+
+    <test name="Chrome 84">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="platform" value="Windows 10"/>
+        <parameter name="version" value="84"/>
+        <packages>
+            <package name="tests.gmail"></package>
+        </packages>
+    </test>
+
+</suite>

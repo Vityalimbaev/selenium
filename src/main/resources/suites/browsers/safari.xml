@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Safari Mac OSX" verbose="1">
+    <parameter name="browser" value="safari"/>
+
+    <test name="Safari version 13">
+        <parameter name="platform" value="Mac OSX 10.15"/>
+        <parameter name="version" value="13"/>
+        <packages>
+            <package name="tests.portal"/>
+<!--            <package name="tests.laboratory"/>-->
+            <package name="tests.promo"/>
+        </packages>
+    </test>
+
+    <test name="Safari version 12">
+        <parameter name="platform" value="Mac OSX 10.14"/>
+        <parameter name="version" value="12"/>
+        <packages>
+            <package name="tests.portal"/>
+<!--            <package name="tests.laboratory"/>-->
+            <package name="tests.promo"/>
+        </packages>
+    </test>
+
+</suite>

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Chrome Local" verbose="1">
+    <parameter name="browser" value="safari"/>
+    <parameter name="platform" value="undefined"/>
+    <parameter name="version" value="undefined"/>
+    <test name="version your local browser">
+        <packages>
+<!--            <package name="tests.portal"/>-->
+        </packages>
+
+        <classes>
+            <class name="tests.portal.Patient"/>
+        </classes>
+    </test>
+</suite>
